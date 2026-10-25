@@ -18,9 +18,8 @@ st.set_page_config(
 )
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_PATH = BASE_DIR / "airfare_data.csv"
-MODEL_PATH = BASE_DIR / "best_model.joblib"
-
+DATA_PATH = BASE_DIR / "Data" / "airfare_data.csv"
+MODEL_PATH = BASE_DIR / "Model" / "best_model.joblib"
 # ==================== LIQUID GRAPHITE UI ====================
 st.markdown("""
 <style>
